@@ -1,0 +1,18 @@
+package pr4Parte2;
+
+
+public class Producto {
+	
+	
+	public Producto(){
+		this.info = num;
+		num++;
+	}
+	
+	public String toString(){
+		return ""+this.info;
+	}
+	
+	private static int num=1;
+	private int info = 0;
+}
